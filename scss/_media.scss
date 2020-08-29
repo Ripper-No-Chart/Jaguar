@@ -1,11 +1,25 @@
-@media (max-width: 576px) {
-  .query-align {
-    flex-wrap: wrap-reverse !important;
+@media (min-width: 375px) and (max-width: 768px) {
+  .nav-resize {
+    width: 30px !important;
+  }
+  .image-resize {
+    width: 70px !important;
+  }
+  .deco-image {
+    width: 120px !important;
   }
 }
 
-@media (max-width: 768px) {
-  .query-align {
-    flex-wrap: wrap-reverse !important;
+@media (min-width: 1024px) and (max-width: 2000px) {
+  .nav-resize {
+    width: 50px !important;
+  }
+
+  .deco-image {
+    width: 250px !important;
+  }
+
+  .image-resize {
+    width: 120px !important;
   }
 }
