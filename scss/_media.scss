@@ -8,18 +8,45 @@
   .deco-image {
     width: 120px !important;
   }
+
+  .img-logo {
+    width: 60% !important
+   }
 }
 
 @media (min-width: 1024px) and (max-width: 2000px) {
   .nav-resize {
     width: 50px !important;
   }
-
+  
   .deco-image {
     width: 250px !important;
   }
-
+  
   .image-resize {
     width: 120px !important;
+  }
+
+  .img-logo {
+   width: 40% !important
+  }
+  
+  // Fonts
+  .title {
+    font-size: 35px !important;
+  }
+  
+  .subtitle{
+    font-size: 25px !important;
+    
+  }
+  
+  .paragraph{
+    
+    font-size: 20px !important;
+  }
+
+  .payment-method {
+      width: 40% !important;
   }
 }
